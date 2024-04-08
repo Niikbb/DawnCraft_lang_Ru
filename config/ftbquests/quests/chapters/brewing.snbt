@@ -1,0 +1,13 @@
+{
+	id: "1FB9858D1AF7413B"
+	group: "121396513D3E97AB"
+	order_index: 3
+	filename: "brewing"
+	title: "Dev forgot to remove that."
+	icon: "kobolds:kobold_potion"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [ ]
+	quest_links: [ ]
+}

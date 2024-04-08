@@ -1,0 +1,56 @@
+{
+	id: "26EE9B177AC3CF7E"
+	group: "6D32BA21621D17B4"
+	order_index: 1
+	filename: "monster_coins"
+	title: "Награды"
+	icon: "libraryferret:netherite_coins_jtl"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Сапфировая Награда"
+			icon: "dannys_expansion:ice_chest"
+			x: -7.0d
+			y: -2.0d
+			can_repeat: true
+			id: "4873DF41F2864A04"
+			tasks: [{
+				id: "0F1CFD398192AC8E"
+				type: "item"
+				item: "libraryferret:netherite_coins_jtl"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15F01BAF39B0D124"
+				type: "choice"
+				title: "Sapphire Grade Reward"
+				exclude_from_claim_all: true
+				table_id: 412628549501852337L
+			}]
+		}
+		{
+			title: "Рубиновая Награда"
+			icon: "quark:crimson_trapped_chest"
+			x: -4.5d
+			y: -2.0d
+			can_repeat: true
+			id: "0066B728B0D151D4"
+			tasks: [{
+				id: "06F571FAE3BEB05F"
+				type: "item"
+				item: "libraryferret:netherite_coins_jtl"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0739A9641ED4C1A4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 998556535538699697L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

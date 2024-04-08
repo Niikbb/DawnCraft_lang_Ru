@@ -1,0 +1,420 @@
+{
+	id: "3FBF22A12EB77153"
+	group: "54BDB5C7DA342A29"
+	order_index: 2
+	filename: "magic"
+	title: "Магия"
+	icon: "irons_spellbooks:mana_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Заклинания и Книги"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			description: ["Вы научитесь как получать новые заклинания, улучшать свои характеристики, призывать и кастовать спеллы во врагов."]
+			size: 2.0d
+			id: "43BE75F09C4043F8"
+			tasks: [{
+				id: "089777A5C1B95D8D"
+				type: "checkmark"
+				title: "Прочитал."
+			}]
+		}
+		{
+			title: "Сбор Магических Структур"
+			icon: {
+				id: "irons_spellbooks:magehunter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 1.5d
+			description: [
+				"Ранние этапы вашей Книги Заклинаний начинаются с поиска Магических Структур, обыска сундуков и победы над магами, что находятся неподалёку."
+				"\\nЭто ваш основной источник получения свитков, которые позволят вам начать произносить заклинания!"
+			]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			size: 1.5d
+			id: "0614C37C1534939E"
+			tasks: [{
+				id: "21D7529F64458A1B"
+				type: "checkmark"
+				title: "Прочитал."
+			}]
+		}
+		{
+			title: "Книги Заклинаний"
+			icon: {
+				id: "irons_spellbooks:legendary_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spells: [ ]
+						activeSpellIndex: -1
+						spellSlots: 12
+					}
+				}
+			}
+			x: -2.5d
+			y: -2.0d
+			description: ["Свитки можно использовать только один раз. Чтобы ими можно было пользоваться на постоянной основе, храните их в Книге Заклинаний. Начните с создания 'Flimsy Journal'! \\n\\n(Если ваш класс 'Астролог', пропустите данный пункт.)"]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "1F327242C2CCCF3C"
+			tasks: [{
+				id: "5AFA2C0E12D601FD"
+				type: "checkmark"
+				title: "Прочитал."
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["Письменный стол позволит вам начать ложить свитки в вашу Книгу с заклинаниями. Но учтите, что свитки могут быть добавлены в Книгу ТОЛЬКО той же редкости или выше!"]
+			dependencies: ["1F327242C2CCCF3C"]
+			id: "39BD15E37DD2B01C"
+			tasks: [{
+				id: "069021CAEE611130"
+				type: "item"
+				item: "irons_spellbooks:inscription_table"
+				consume_items: false
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "364D3C4B4475BC0D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: ["Помимо лутинга структур, создать 'Кузню Свитков'  - это неплохой альтернативный способ для получения свитков.\nИспользуйте 'Поиск' в вашем Инвентаре чтобы смотреть другие рецепты для создания свитков. Уровень созданных свитков так же зависит от Чернил и вашей Удачи. Их дальнейшее улучшение будет чуть позже."]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			id: "5178B560C8B827E3"
+			tasks: [{
+				id: "56950BA8A3BB0936"
+				type: "item"
+				item: "irons_spellbooks:scroll_forge"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Начальное снаряжение Мага"
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 0.0d
+			description: ["Лучшее начальное снаряжение для мага это сет Странствующего Мага, которое создаётся на Кузнечном Столе."]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "4E54C208CEF187D1"
+			tasks: [
+				{
+					id: "2991B4044436D80F"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24C7B7EB23DAD688"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "388AC1774E88E3E7"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53D470BF41FC8D94"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Продвинутое снаряжение Мага"
+			icon: {
+				id: "irons_spellbooks:pyromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Вообще для мага есть броня куда лучше, чем сет 'Странствующего Мага'.\nМаги могут создавать экипировку из 'Элементальных Рунических Камней', которые усиливают некоторые элементы заклинаний."
+				"\n\nЧтобы создать экипировку для своего класса, магам нужно как-то получить 'Рунические Камни'. Некоторые Рунические крафты могут потребовать ритуалы для завершения создания предмета. Попробуйте воспользоваться 'Поиском' в вашем инвентаре!"
+			]
+			dependencies: ["4E54C208CEF187D1"]
+			id: "1EE082F0F108BFBA"
+			tasks: [{
+				id: "21F74BED3827CB09"
+				type: "checkmark"
+				title: "Понял."
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			description: ["Один из важнейших материалов для магических крафтов. Могут быть получены при лутинге сундуков и при убийстве врагов, которые пользуются магией."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4CEED19552F9272D"
+			tasks: [{
+				id: "04C0D0354D3DFBA3"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Усиливание Магической Экипировки"
+			icon: {
+				id: "irons_spellbooks:pumpkin_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"Чтобы усилить вашу экипировку, для начала вам понадобится 'Сфера улучшения' и 'Волшебная наковальня'. Создание разных 'Сфер улучшений' может быть затратным, но чаще всего вам нужно будет тратить компоненты, такие как 'Эссенция волшебства' и 'Пепельная эссенция'."
+				"\\n"
+				"Вы можете улучшить одну из частей магической экипировки до трёх раз. Разные 'Сферы улучшений' предоставляют разные бонусы, такие как 'Усиление элементального урона' или 'Увеличения максимальной маны'."
+			]
+			dependencies: [
+				"1EE082F0F108BFBA"
+				"5C76F132FD8587F9"
+				"607E8D1ADA6ED3A0"
+			]
+			id: "37B5F30D3F4B99F6"
+			tasks: [{
+				id: "3BE9AFC332C9476E"
+				type: "checkmark"
+				title: "Понял."
+			}]
+			rewards: [{
+				id: "56DD80B6574EC6C2"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["Основа для всех рун. Можно найти в магических структурах или могут выпасть из магов, живущих в тех же структурах."]
+			dependencies: ["0614C37C1534939E"]
+			id: "49B1AA2C35454C74"
+			tasks: [{
+				id: "1B902538D23196EB"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Местонахождение Мёртвого Короля"
+			x: -0.7d
+			y: 1.4d
+			description: [
+				"Мёртвый Король это довольно сильный Маг-Нежить, живущий глубоко под землёй внутри Структуры. Единственный вариант найти его Подземелье это создать 'Шальной компас' и следовать по пути, который он вам укажет."
+				"\nЭтот скелет пользуется довольно сильными магическими заклинаниями, чтобы отражать нападения путников вроде вас! Не пытайтесь его убить пока вы не будете готовы!\nА вообще, если вы сможете отправить его на покой, то награда будет достойной... Она даже сможет усилить вас для дальнейшего достижения будущих целей!"
+			]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.4d
+			id: "73A2334F5E27719A"
+			tasks: [{
+				id: "45DD5B0FAD17B43A"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:wayward_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Древнее поле битвы"
+			icon: {
+				id: "mutantmonsters:mutant_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.9500000000000002d
+			y: 2.6d
+			description: ["Древнее поле битвы можно найти в Аду.\\nЧтобы воскресить Древних Рыцарей, вскопайте их кусочки брони при помощи Кирки."]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.3d
+			id: "28F664AE3CBA9E87"
+			tasks: [{
+				id: "04B7F97553E6079A"
+				type: "checkmark"
+				title: "Жуть..."
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["Компонент требуемый для крафта 'Пустой сферы улучшения'. ТОЛЬКО может быть получен путён убийства Древних Рыцарей на 'Древнем поле битвы'."]
+			dependencies: ["28F664AE3CBA9E87"]
+			id: "0CFC93A854B6EBE1"
+			tasks: [{
+				id: "3727B06E2FE205B4"
+				type: "item"
+				item: "irons_spellbooks:cinder_essence"
+			}]
+			rewards: [{
+				id: "155E77020EC84993"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				count: 4
+			}]
+		}
+		{
+			title: "Получение Свитков"
+			icon: "ob_core:scroll_primitive_rites"
+			x: -4.5d
+			y: 0.0d
+			description: ["Есть только два пути по получению свитков."]
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.5d
+			id: "5D6F2EF2A0FABB1E"
+			tasks: [{
+				id: "4DB549B82B05387F"
+				type: "checkmark"
+				title: "Показывай!"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["Нужен для улучшения свитков, экипировки и усиления оружия."]
+			dependencies: ["39BD15E37DD2B01C"]
+			id: "5C76F132FD8587F9"
+			tasks: [{
+				id: "65079F0A627BA537"
+				type: "item"
+				item: "irons_spellbooks:arcane_anvil"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: ["Базовая сфера для улучшения вашей экипировки. Нужно перекрафтить 8 Рунами одного типа перед дальнейшим использованием."]
+			dependencies: ["0CFC93A854B6EBE1"]
+			id: "607E8D1ADA6ED3A0"
+			tasks: [{
+				id: "450C6924ABAA82D0"
+				type: "item"
+				item: "irons_spellbooks:upgrade_orb"
+			}]
+		}
+		{
+			title: "Уникальные Реликвии и Книги Заклинаний"
+			icon: "irons_spellbooks:emerald_stoneplate_ring"
+			x: -4.25d
+			y: -1.7d
+			description: ["На каждом этапе ваших приключений, всегда собирайте кольца, уникальные книги заклинаний, именованные книги заклинаний и магические ресурсы!"]
+			hide_dependency_lines: true
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.7d
+			id: "142D6C7E522A3208"
+			tasks: [{
+				id: "128B025C180FB6B2"
+				type: "checkmark"
+				title: "Awesome!"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			description: ["Важный компонент для создания Свитков.\nМожет быть найден в Магических структурах. Может выпасть с Сильных магических врагов."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4200E32F0492E2E3"
+			tasks: [{
+				id: "58DEDE820A0E14A3"
+				type: "item"
+				item: "irons_spellbooks:common_ink"
+			}]
+		}
+		{
+			title: "Создаём первый свиток"
+			icon: {
+				id: "irons_spellbooks:scroll"
+				Count: 1b
+				tag: {
+					ISB_spell: {
+						type: 1
+						level: 1
+					}
+				}
+			}
+			x: -6.5d
+			y: 1.5d
+			description: ["С чернилами и 'Кузней свитков', вы готовы создать свой первый свиток!"]
+			dependencies: [
+				"5178B560C8B827E3"
+				"4200E32F0492E2E3"
+			]
+			id: "55DE5FDCFC67E4A2"
+			tasks: [{
+				id: "454D6DA7C5585A1B"
+				type: "checkmark"
+				title: "Вас понял!"
+			}]
+			rewards: [{
+				id: "62DD7A9F0FD11783"
+				type: "item"
+				item: "irons_spellbooks:magic_cloth"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
