@@ -13,7 +13,7 @@
 			title: "Огненный Гигант"
 			icon: "simple_mobs:giant_knot"
 			x: -4.5d
-			y: -10.0d
+			y: -11.0d
 			shape: "square"
 			id: "232BCBAFD1BCDD94"
 			tasks: [{
@@ -40,7 +40,7 @@
 		{
 			title: "Рыцарь-страж"
 			icon: "simple_mobs:sentinelkey"
-			x: -6.5d
+			x: -10.5d
 			y: -10.0d
 			shape: "square"
 			id: "1F511C4B84DEB0CD"
@@ -68,7 +68,7 @@
 		{
 			title: "Марсианин"
 			x: -8.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "5347DB3655BAC44D"
 			tasks: [{
@@ -156,7 +156,7 @@
 		{
 			title: "Магистр Магии, Повелитель Скелетов"
 			x: -7.5d
-			y: -10.0d
+			y: -9.0d
 			shape: "square"
 			id: "27A79E9E56494551"
 			tasks: [{
@@ -181,7 +181,7 @@
 		{
 			title: "Огненный Дракон"
 			x: -5.5d
-			y: -10.0d
+			y: -11.0d
 			shape: "square"
 			id: "3F3ED8C432582996"
 			tasks: [{
@@ -201,7 +201,7 @@
 		{
 			title: "Ледяной Дракон"
 			x: -3.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "467C581554F45E4E"
 			tasks: [{
@@ -249,7 +249,7 @@
 		}
 		{
 			title: "Король Гоблинов"
-			x: -4.5d
+			x: -11.5d
 			y: -11.0d
 			shape: "square"
 			id: "1D4D66A4666640C0"
@@ -302,8 +302,8 @@
 		}
 		{
 			title: "Отец Гаскойн"
-			x: -3.5d
-			y: -11.0d
+			x: -12.5d
+			y: -13.0d
 			shape: "square"
 			id: "2680E2C671E5E738"
 			tasks: [{
@@ -323,7 +323,7 @@
 		}
 		{
 			x: -5.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "4F33DC71CFC4F30D"
 			tasks: [{
@@ -348,7 +348,7 @@
 		}
 		{
 			x: -0.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "square"
 			hide: false
 			id: "30E6359CC2E8F7A6"
@@ -394,7 +394,7 @@
 		{
 			title: "Рыцарь Роберт, Первородный "
 			x: -5.5d
-			y: -11.0d
+			y: -9.0d
 			shape: "square"
 			id: "436D5FDF800C6D94"
 			tasks: [{
@@ -452,7 +452,7 @@
 		{
 			title: "Нага"
 			x: -8.5d
-			y: -10.0d
+			y: -9.0d
 			shape: "square"
 			id: "1B2B39B68B8DCB37"
 			tasks: [{
@@ -520,7 +520,7 @@
 		{
 			title: "Защитник Края"
 			x: -3.5d
-			y: -10.0d
+			y: -11.0d
 			shape: "square"
 			id: "3F3E14D8B56AB9DC"
 			tasks: [{
@@ -539,8 +539,8 @@
 		}
 		{
 			title: "Голем Края"
-			x: -1.5d
-			y: -11.0d
+			x: 2.5d
+			y: -13.0d
 			shape: "square"
 			id: "343FD5BF6B3AB0B1"
 			tasks: [{
@@ -560,8 +560,8 @@
 		}
 		{
 			title: "Заклинатель"
-			x: -1.5d
-			y: -8.0d
+			x: 1.5d
+			y: -11.0d
 			shape: "square"
 			id: "4E1536B87DDD7AF2"
 			tasks: [{
@@ -579,8 +579,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -8.0d
+			x: -9.5d
+			y: -10.0d
 			shape: "square"
 			id: "48C10A799E93C0FB"
 			tasks: [{
@@ -647,8 +647,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -10.0d
+			x: 0.5d
+			y: -11.0d
 			shape: "square"
 			id: "1383DC854742EF6C"
 			tasks: [{
@@ -720,7 +720,7 @@
 		}
 		{
 			x: -0.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "7D499166477745E4"
 			tasks: [{
@@ -852,7 +852,7 @@
 		{
 			title: "Призыватель"
 			x: -6.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "387628D157DB14C6"
 			tasks: [{
@@ -877,7 +877,7 @@
 		{
 			title: "Алхимик"
 			x: -7.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "26A81FA8D7FD065E"
 			tasks: [{
@@ -944,7 +944,7 @@
 		}
 		{
 			x: -4.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "square"
 			id: "1FA5378CB756CDEF"
 			tasks: [{
@@ -963,8 +963,8 @@
 		}
 		{
 			title: "Звонарь"
-			x: -9.5d
-			y: -10.0d
+			x: -1.5d
+			y: -11.0d
 			shape: "square"
 			id: "3D1EF85D04AABC1E"
 			tasks: [{
@@ -1022,8 +1022,8 @@
 		}
 		{
 			title: "Король Мёртвых"
-			x: -9.5d
-			y: -8.0d
+			x: -10.5d
+			y: -11.0d
 			shape: "square"
 			id: "6DBE392A143B7359"
 			tasks: [{
@@ -1062,8 +1062,8 @@
 									id: 33
 								}
 							]
-							activeSpellIndex: 0
 							spellSlots: 5
+							activeSpellIndex: 0
 						}
 					}
 				}
@@ -1077,8 +1077,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -8.0d
+			x: -11.5d
+			y: -13.0d
 			shape: "square"
 			id: "6A59230529DD338B"
 			tasks: [{
@@ -1098,7 +1098,7 @@
 		}
 		{
 			x: -6.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "square"
 			description: ["Можно встретить в редких лесных особняках."]
 			id: "34035B17673778E8"
@@ -1117,8 +1117,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -8.0d
+			x: 1.5d
+			y: -13.0d
 			shape: "square"
 			description: ["Можно вызвать, бросив адскую звезду на кафедру в центре адского алтаря, который можно найти в биомах Адские дюны."]
 			id: "6292500CB25FD6CC"
@@ -1131,13 +1131,7 @@
 					Count: 1b
 					tag: {
 						RepairCost: 1
-						affix_data: {
-							name: "{\"color\":\"#808080\",\"translate\":\"%s %s\",\"with\":[{\"translate\":\"affix.apotheosis:ironforged\"},\"\",\"\"]}"
-							affixes: {
-								"apotheosis:ironforged": 0.058177173f
-							}
-							rarity: "common"
-						}
+						Damage: 0
 						BlockEntityTag: {
 							Patterns: [
 								{
@@ -1166,9 +1160,27 @@
 								}
 							]
 						}
-						Damage: 0
+						affix_data: {
+							name: "{\"color\":\"#808080\",\"translate\":\"%s %s\",\"with\":[{\"translate\":\"affix.apotheosis:ironforged\"},\"\",\"\"]}"
+							affixes: {
+								"apotheosis:ironforged": 0.058177173f
+							}
+							rarity: "common"
+						}
 						HideFlags: 32
-						CustomModelData: 1450300
+						AttributeModifiers: [{
+							Amount: -0.029904954135417938d
+							Name: "weaken"
+							Operation: 1
+							UUID: [I;
+								112035901
+								1134379090
+								-1220404660
+								-221377395
+							]
+							AttributeName: "minecraft:generic.attack_damage"
+							Slot: "offhand"
+						}]
 						display: {
 							Name: "{\"italic\":false,\"color\":\"#993333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Necrotic Shield\",{\"translate\":\"incendium.item.necrotic_shield.name\"}]}"
 							Lore: [
@@ -1178,19 +1190,7 @@
 								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
 							]
 						}
-						AttributeModifiers: [{
-							Amount: -0.029904954135417938d
-							Slot: "offhand"
-							Operation: 1
-							UUID: [I;
-								112035901
-								1134379090
-								-1220404660
-								-221377395
-							]
-							AttributeName: "minecraft:generic.attack_damage"
-							Name: "weaken"
-						}]
+						CustomModelData: 1450300
 						incendium: {
 							item: "necrotic_shield"
 						}
@@ -1231,7 +1231,7 @@
 		{
 			title: "Цветок Пустоты"
 			x: -3.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "square"
 			id: "10D1374677DBD7CE"
 			tasks: [{
@@ -1250,8 +1250,8 @@
 		}
 		{
 			title: "Ночной Лич"
-			x: -2.5d
-			y: -8.0d
+			x: 0.5d
+			y: -10.0d
 			shape: "square"
 			id: "3CFF1BF1471E4D84"
 			tasks: [{
@@ -1313,7 +1313,7 @@
 		{
 			title: "Энт"
 			x: -4.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "square"
 			id: "4DB740AE2FEC622C"
 			tasks: [{
@@ -1423,8 +1423,8 @@
 					Damage: 0
 				}
 			}
-			x: -4.5d
-			y: -6.5d
+			x: -10.5d
+			y: -13.0d
 			shape: "square"
 			description: ["Может быть призван после победы над 'Освещенным Дробителем Звезд'."]
 			id: "693D9DB70A0A9278"
@@ -1452,8 +1452,8 @@
 		}
 		{
 			title: "Морготт, Король Знамений"
-			x: -5.5d
-			y: -6.5d
+			x: 0.5d
+			y: -13.0d
 			shape: "square"
 			description: ["Может быть призван после победы над 'Арахнархом'."]
 			id: "09598B0D8D9A5D05"
