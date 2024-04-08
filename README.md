@@ -5,7 +5,7 @@ Does support DawnCraft 2.0.5 and higher.
 
 Ready to use:
 - FTB Quests: 12/13
-- ~~Quest Giver (Quests/Tasks): 124/164~~ (Reworking, causes 'Datapack error')
+- Quest Giver (Quests/Tasks): 119/159
 - DawnCraft NPC Localization (1.33f) 
 ##
 ### (🇷🇺) DawnCraft ModPack для Русскоговорящих людей.
@@ -15,7 +15,7 @@ Ready to use:
 
 Готовое к использованию:
 - FTB Quests: 12/13.
-- ~~Quest Giver (Квесты/Задания): 124/164~~ (В переработке, вызывает 'Ошибку в наборе данных')
+- Quest Giver (Квесты/Задания): 119/159
 - Локализация НПС DawnCraft (1.33f)
 ##
 ### Установка:
