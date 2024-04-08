@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0113_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Не дашь ли мне кусок бумаги? Я нарисую тебе карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Сходи в эту локацию... Достань самоцветы из монстра и принеси их мне. Уверяю вас, награда будет стоящей."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:obsidian_spikes \"Investigate the Area the Weaponsmith Mentioned\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:weaponsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p weaponsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}
