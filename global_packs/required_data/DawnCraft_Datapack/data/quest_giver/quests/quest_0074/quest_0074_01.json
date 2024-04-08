@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Странная Просьба"
+    },
+    "description": {
+      "text": "Могу ли я взять одну из ваших $(red)сфер духа$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Их структура слишком сложная... Не могли бы вы дать мне ещё одну?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}
