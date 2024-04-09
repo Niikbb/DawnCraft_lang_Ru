@@ -29,20 +29,28 @@
   ],
   "rewards": [
     {
-      "command": "/loot give @p loot minecraft:guildmaster3",
+      "command": "/dc addWaypoint @p custom:ninetail_farm \"Основной Квест - Ферма Девятихвостого\"",
       "id": "quest_giver:command"
-    },
-    {
-      "command": "/pmmo admin @p add crafting level 1",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/pmmo admin @p add engineering level 1",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
-      "id": "quest_giver:command"
-    }    
-  ]
+    }, 
+      {
+        "command": "/loot give @p loot minecraft:guildmaster3",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/pmmo admin @p add crafting level 1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/pmmo admin @p add engineering level 1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p guildmaster5 true",
+        "id": "quest_giver:command"
+      }    
+    ]
 }

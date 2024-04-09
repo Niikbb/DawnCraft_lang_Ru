@@ -29,28 +29,36 @@
   ],
   "rewards": [
     {
-      "command": "/loot give @p loot minecraft:guildmaster2",
+      "command": "/dc addWaypoint @p custom:arena \"Основной Квест - Арена Рыцаря Робера\"",
       "id": "quest_giver:command"
-    },
-    {
-      "command": "/dc enableInvasions @p",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/pmmo admin @p add endurance level 1",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/pmmo admin @p add cooking level 1",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/gamestage add @p AdvancedSmelting",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
-      "id": "quest_giver:command"
-    } 
-  ]
+    }, 
+      {
+        "command": "/loot give @p loot minecraft:guildmaster2",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/dc enableInvasions @p",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/pmmo admin @p add endurance level 1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/pmmo admin @p add cooking level 1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p AdvancedSmelting true",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p guildmaster4 true",
+        "id": "quest_giver:command"
+      }
+    ]
 }

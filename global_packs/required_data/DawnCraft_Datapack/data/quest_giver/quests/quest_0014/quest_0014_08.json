@@ -29,23 +29,31 @@
   ],
   "rewards": [
     {
-      "command": "/loot give @p loot minecraft:guildmaster6",
+      "command": "/dc addWaypoint @p custom:giant_altar \"Основной Квест - Алтарь Огненного Гиганта\"",
       "id": "quest_giver:command"
     },
-    {
-      "item": {
-        "item": "simple_mobs:giant_knot"
+      {
+        "command": "/loot give @p loot minecraft:guildmaster6",
+        "id": "quest_giver:command"
       },
-      "id": "quest_giver:item",
-      "times": 1
-    },
-    {
-      "command": "/gamestage add @p fire_giant",
-      "id": "quest_giver:command"
-    },
-    {
-      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
-      "id": "quest_giver:command"
-    }    
-  ]
+      {
+        "item": {
+          "item": "simple_mobs:giant_knot"
+        },
+        "id": "quest_giver:item",
+        "times": 1
+      },
+      {
+        "command": "/gamestage add @p fire_giant",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p guildmaster8 true",
+        "id": "quest_giver:command"
+      }    
+    ]
 }

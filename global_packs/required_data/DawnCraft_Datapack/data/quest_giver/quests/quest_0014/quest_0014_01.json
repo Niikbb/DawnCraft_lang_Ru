@@ -24,7 +24,22 @@
 		"times": 10
 	}],
 	"rewards": [{
-		"command": "/give @p epicfight:skillbook{skill:\"epicfight:roll\"}",
-		"id": "quest_giver:command"
-	}]
+		"item": {
+			"item": "paraglider:spirit_orb"
+		},
+		"id": "quest_giver:item",
+		"times": 4
+		},
+		{
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Основной Квест - Замок Короля Гоблинов\"",
+			"id": "quest_giver:command"
+		}, 
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        },
+        {
+           "command": "/gamestage add @p guildmaster2 true",
+            "id": "quest_giver:command"
+        }]
 }
