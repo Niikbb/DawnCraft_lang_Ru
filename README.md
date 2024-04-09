@@ -6,7 +6,8 @@ Does support DawnCraft 2.0.5 and higher.
 Ready to use:
 - FTB Quests: 12/13
 - Quest Giver (Quests/Tasks): 119/159
-- DawnCraft NPC Localization (1.33f) 
+- DawnCraft NPC Localization (1.33f) (ResourcePack by ItDanieru)
+- Modpack Localization (1.33f) (ResourcePack by Skyderlock)
 ##
 ### (🇷🇺) DawnCraft ModPack для Русскоговорящих людей.
 Версия от ItDanieru была взята как основа для перевода.
@@ -16,7 +17,8 @@ Ready to use:
 Готовое к использованию:
 - FTB Quests: 12/13.
 - Quest Giver (Квесты/Задания): 119/159
-- Локализация НПС DawnCraft (1.33f)
+- Локализация НПС DawnCraft (1.33f) (РесурсПак от ItDanieru)
+- Локализация Модпака (1.33f) (РесурсПак от Skyderlock)
 ##
 ### Установка:
 1. Скачайте архив: https://github.com/Niikbb/DawnCraft_lang_Ru/archive/refs/heads/2.0.5-WIP.zip
