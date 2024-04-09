@@ -4,18 +4,18 @@
 	"icon": "minecraft:enchanted_book",
 	"start": {
 		"title": {
-			"text": "First Assignment"
+			"text": "Базовый навык"
 		},
 		"description": {
-			"text": "Come back after you've fulfilled the requirements - $(red)Kill 10 pillagers$()."
+			"text": "Возвращайся после выполнения требований - $(red)Убить 10 Разбойников$()."
 		}
 	},
 	"complete": {
 		"title": {
-			"text": "First Assignment"
+			"text": "Первое поручение"
 		},
 		"description": {
-			"text": "Here, use these to get your first upgrade from the $(green)goddess statues$()! I would recommend talking to some of the guards here if you want to learn some new skills. Good luck on your journey."
+			"text": "Держи. Используй их, дабы получить своё первое усиление от статуй божеств! Мой совет - если хочешь получить больше книг навыков, выполняй просьбы стражников. Удачи в путешествии."
 		}
 	},
 	"tasks": [{
@@ -31,7 +31,7 @@
 		"times": 4
 		},
 		{
-			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Main Quest - Goblin King's Keep\"",
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Основной Квест - Замок Короля Гоблинов\"",
 			"id": "quest_giver:command"
 		}, 
         {
