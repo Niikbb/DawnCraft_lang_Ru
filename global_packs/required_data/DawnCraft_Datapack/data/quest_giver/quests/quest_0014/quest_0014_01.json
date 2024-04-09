@@ -4,7 +4,7 @@
 	"icon": "minecraft:enchanted_book",
 	"start": {
 		"title": {
-			"text": "Базовый навык"
+			"text": "Первое поручение"
 		},
 		"description": {
 			"text": "Возвращайся после выполнения требований - $(red)Убить 10 Разбойников$()."
