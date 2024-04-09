@@ -22,6 +22,6 @@ Ready to use:
 ##
 ### Установка:
 1. Скачайте архив: https://github.com/Niikbb/DawnCraft_lang_Ru/archive/refs/heads/2.0.5-WIP.zip
-2. Скопируйте папки "config", "global_packs" и "resourcepack" и вставьте их с заменой в корневую папку игры. Пример пути: (C:\Users\Username\AppData\Roaming\.minecraft)
+2. Скопируйте папки "config", "global_packs" и "resourcepack" и вставьте их с заменой в корневую папку игры. Пример пути: (C:\Users\Username\AppData\Roaming\minecraft)
 3. Включите оба ресурспака во вкладке "Настройки --> Набор Ресурсов"
 4. Чтобы перевод работал корректно, не забудьте включить "Русский" язык в самой игре.
