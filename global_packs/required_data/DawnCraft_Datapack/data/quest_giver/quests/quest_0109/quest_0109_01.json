@@ -28,9 +28,17 @@
      }
   ],
   "rewards": [
-  {
-      "command": "/loot give @p loot minecraft:guard2",
+    {
+      "command": "/dc addWaypoint @p quest_giver:pillager_base \"Спасение - База Разбойников\"",
       "id": "quest_giver:command"
-    }
-  ]
+    }, 
+      {
+        "command": "/loot give @p loot minecraft:guard2",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p guard2 true",
+        "id": "quest_giver:command"
+      }    
+    ]
 }
