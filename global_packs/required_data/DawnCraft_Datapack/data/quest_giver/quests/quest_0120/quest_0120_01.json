@@ -4,7 +4,7 @@
   "icon": "minecraft:iron_pickaxe",
   "start": {
     "title": {
-      "text": "Сердце Дракона"
+      "text": "Алтарь Призыва"
     },
     "description": {
       "text": "Карта к алтарю призыва обойдется тебе в 5 Изумрудов."
@@ -29,7 +29,15 @@
   ],
   "rewards": [
     {
+      "command": "/dc addWaypoint @p custom:summon_podium \"Алтарь Призыва\"",
+      "id": "quest_giver:command"
+    },  
+    {
       "command": "/loot give @p loot minecraft:cartographer2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer2 true",
       "id": "quest_giver:command"
     }
   ]

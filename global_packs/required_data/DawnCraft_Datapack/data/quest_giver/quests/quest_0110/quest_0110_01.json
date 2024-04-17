@@ -28,9 +28,17 @@
      }
   ],
   "rewards": [
-  {
-      "command": "/loot give @p loot minecraft:guard3",
+    {
+      "command": "/dc addWaypoint @p quest_giver:cave_dwelling \"Убийство - Пещерный Ужас\"",
       "id": "quest_giver:command"
-    }
-  ]
+    },
+      {
+        "command": "/loot give @p loot minecraft:guard3",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p guard3 true",
+        "id": "quest_giver:command"
+      }    
+    ]
 }

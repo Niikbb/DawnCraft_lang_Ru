@@ -15,7 +15,7 @@
       "text": "Спасибо!"
     },
     "description": {
-      "text": "Хорошая работа! Ты принёс его глаз... Итак, в качестве оплаты я обучу тебя защитному навыку - «Блоку». Это один из важнейших навыков, что ты можешь освоить в этом измерении."
+      "text": "Хорошая работа! Ты принёс его глаз... Итак, в качестве оплаты я обучу тебя боевому навыку - «Demolishion Leap». Данный навык улучшит твою гибкость во время боя!"
     }
   },
   "tasks": [
@@ -29,7 +29,7 @@
   ],
   "rewards": [
     {
-      "command": "/give @p epicfight:skillbook{skill:\"epicfight:guard\"}",
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:demolition_leap\"}",
       "id": "quest_giver:command"
     }
   ]

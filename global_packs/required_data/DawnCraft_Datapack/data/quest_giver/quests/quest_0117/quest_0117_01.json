@@ -7,7 +7,7 @@
       "text": "An Offer"
     },
     "description": {
-      "text": "25 Изумрудов и я научу тебя держать по большому мечу в каждой руке."
+      "text": "15 Изумрудов и я научу тебя навыку отпрыгивания."
     }
   },
   "complete": {
@@ -24,12 +24,12 @@
 	 "item": "minecraft:emerald"
       },
       "id": "quest_giver:gift",
-      "amount": 25
+      "amount": 15
      }
   ],
   "rewards": [
     {
-      "command": "/give @p epicfight:skillbook{skill:\"epicfight:dualgreatsword\"}",
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
       "id": "quest_giver:command"
     }
   ]

@@ -7,7 +7,7 @@
       "text": "Предложение"
     },
     "description": {
-      "text": "4 Изумруда и я покажу, где найти нужные для призыва Игниса материалы."
+      "text": "Дай мне 4 Изумруда и я покажу, где найти нужные материалы для призыва Игниса."
     }
   },
   "complete": {
@@ -34,6 +34,10 @@
       },
       "id": "quest_giver:item",
       "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian3 true",
+      "id": "quest_giver:command"
     }
   ]
 }
