@@ -15,7 +15,7 @@
       "text": "Здесь."
     },
     "description": {
-      "text": "Здесь, в этой точке, иностранные разбойники разбили лагерь. Иди и уничтожь лидера."
+      "text": "Здесь, в этой точке, разбойники с востока разбили лагерь. Иди и уничтожь их лидера."
     }
   },
   "tasks": [
@@ -28,8 +28,16 @@
      }
   ],
   "rewards": [
-  {
+    {
+      "command": "/dc addWaypoint @p custom:dojo \"'Восточные Разбойники' - Додзё\"",
+      "id": "quest_giver:command"
+    },   
+    {
       "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
       "id": "quest_giver:command"
     }
   ]
