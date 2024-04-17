@@ -810,7 +810,7 @@
 			tasks: [{
 				id: "2ECE5BFDEBD7969E"
 				type: "kill"
-				title: "Cave Dweller"
+				title: "Пещерный Ужас"
 				icon: {
 					id: "simple_mobs:dweller_core"
 					Count: 1b
