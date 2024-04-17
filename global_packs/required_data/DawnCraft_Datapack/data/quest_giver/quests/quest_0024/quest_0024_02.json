@@ -16,7 +16,7 @@
       "text": "Пропавший ребёнок: Выполнено"
     },
     "description": {
-      "text": "То, что ты сделал... Ты герой, Авантюрист. Мы никогда этого не забудем. Я научу тебя новому боевому навыку - Берсерк."
+      "text": "То, что ты сделал... Ты герой, Авантюрист. Мы никогда этого не забудем. Я научу тебя новому боевому навыку - Урожай Смерти."
     }
   },
   "tasks": [
@@ -27,7 +27,7 @@
   ],
   "rewards": [
     {
-      "command": "/give @p epicfight:skillbook{skill:\"epicfight:berserker\"}",
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
       "id": "quest_giver:command"
     }
   ]

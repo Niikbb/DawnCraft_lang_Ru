@@ -28,9 +28,17 @@
      }
   ],
   "rewards": [
-  {
-      "command": "/loot give @p loot minecraft:miner1",
+    {
+      "command": "/dc addWaypoint @p custom:fallen_house \"Запрос Шахтёра - Неупокоенная Душа\"",
       "id": "quest_giver:command"
-    }
-  ]
+    },  
+      {
+        "command": "/loot give @p loot minecraft:miner1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p miner1 true",
+        "id": "quest_giver:command"
+      }
+    ]
 }

@@ -28,8 +28,16 @@
      }
   ],
   "rewards": [
-  {
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon \"Запрос Бронника\"",
+      "id": "quest_giver:command"
+    },  
+    {
       "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
       "id": "quest_giver:command"
     }
   ]

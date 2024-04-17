@@ -7,7 +7,7 @@
 			"text": "Ну и?"
 		},
 		"description": {
-			"text": "Я могу научить тебя навыку - Активная Защита. Просто заплати мне 15 Изумрудов."
+			"text": "Я могу научить тебя навыку - Аварийный Побег. Просто заплати мне 15 Изумрудов."
 		}
 	},
 	"complete": {
@@ -26,7 +26,7 @@
       "times": 15
 	}],
 	"rewards": [{
-		"command": "/give @p epicfight:skillbook{skill:\"epicfight:active_guard\"}",
+		"command": "/give @p epicfight:skillbook{skill:\"epicfight:emergency_escape\"}",
 		"id": "quest_giver:command"
 	}]
 }

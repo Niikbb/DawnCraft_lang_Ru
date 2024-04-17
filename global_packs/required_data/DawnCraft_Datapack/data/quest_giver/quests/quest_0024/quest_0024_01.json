@@ -28,9 +28,17 @@
      }
   ],
   "rewards": [
-  {
-      "command": "/loot give @p loot minecraft:guard1",
+    {
+      "command": "/dc addWaypoint @p quest_giver:pillager_hideout \"Запрос на Спасение - Аванпост Разбойников\"",
       "id": "quest_giver:command"
-    }
-  ]
+    }, 
+      {
+        "command": "/loot give @p loot minecraft:guard1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p guard1 true",
+        "id": "quest_giver:command"
+      }    
+    ]
 }

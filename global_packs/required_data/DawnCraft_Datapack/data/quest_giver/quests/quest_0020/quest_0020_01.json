@@ -28,9 +28,17 @@
      }
   ],
   "rewards": [
-  {
-      "command": "/loot give @p loot minecraft:netherian1",
+    {
+      "command": "/dc addWaypoint @p custom:cult_informer_ruin \"Запрос Незерианца\"",
       "id": "quest_giver:command"
-    }
-  ]
+    }, 
+      {
+        "command": "/loot give @p loot minecraft:netherian1",
+        "id": "quest_giver:command"
+      },
+      {
+        "command": "/gamestage add @p netherian1 true",
+        "id": "quest_giver:command"
+      }
+    ]
 }
