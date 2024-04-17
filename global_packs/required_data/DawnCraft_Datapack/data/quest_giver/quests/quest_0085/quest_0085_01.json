@@ -4,7 +4,7 @@
   "icon": "minecraft:iron_axe",
   "start": {
     "title": {
-      "text": "Log Gathering"
+      "text": "Добыча Дерева"
     },
     "description": {
       "text": "Ты уже нашёл $(red)багровый стебель$()?"

@@ -29,7 +29,7 @@
   ],
   "rewards": [
     {
-      "command": "/dc addWaypoint @p custom:obsidian_spikes \"Investigate the Area the Weaponsmith Mentioned\"",
+      "command": "/dc addWaypoint @p custom:obsidian_spikes \"Задание Оружейника\"",
       "id": "quest_giver:command"
     },  
     {
