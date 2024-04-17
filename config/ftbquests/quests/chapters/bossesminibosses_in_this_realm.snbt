@@ -15,6 +15,7 @@
 			x: -4.5d
 			y: -11.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "232BCBAFD1BCDD94"
 			tasks: [{
 				id: "445F7648DEA3E68E"
@@ -43,6 +44,7 @@
 			x: -10.5d
 			y: -10.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "1F511C4B84DEB0CD"
 			tasks: [{
 				id: "4C5EFE238F3FD770"
@@ -70,6 +72,7 @@
 			x: -8.5d
 			y: -10.0d
 			shape: "square"
+			description: ["Может быть получен в виде задания у НПС."]
 			id: "5347DB3655BAC44D"
 			tasks: [{
 				id: "7BDEC0C40EDA1E6C"
@@ -97,6 +100,7 @@
 			x: -6.5d
 			y: -11.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "19AB0A53440F58E3"
 			tasks: [{
 				id: "26621AD360C172EF"
@@ -130,6 +134,7 @@
 			x: -7.5d
 			y: -11.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "6E3145FBF5DC7E5A"
 			tasks: [{
 				id: "7001FA74512AAD19"
@@ -158,6 +163,7 @@
 			x: -7.5d
 			y: -9.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "27A79E9E56494551"
 			tasks: [{
 				id: "4D745F7EB67EBF7F"
@@ -252,6 +258,7 @@
 			x: -11.5d
 			y: -11.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "1D4D66A4666640C0"
 			tasks: [{
 				id: "4A44B3D3E93B316A"
@@ -278,6 +285,7 @@
 			x: -3.5d
 			y: -13.0d
 			shape: "square"
+			description: ["Может быть призван через 'Алтарь призыва'."]
 			id: "7279CC337EDCA3C4"
 			tasks: [{
 				id: "7656A203BA9099CF"
@@ -305,6 +313,7 @@
 			x: -12.5d
 			y: -13.0d
 			shape: "square"
+			description: ["Может быть призван при помощи предмета \"Красный самоцвет\"."]
 			id: "2680E2C671E5E738"
 			tasks: [{
 				id: "447DB75056CBD118"
@@ -392,10 +401,11 @@
 			}]
 		}
 		{
-			title: "Рыцарь Роберт, Первородный "
+			title: "Рыцарь Роберт, Первородный"
 			x: -5.5d
 			y: -9.0d
 			shape: "square"
+			description: ["Встречается по основной сюжетной линии квестов."]
 			id: "436D5FDF800C6D94"
 			tasks: [{
 				id: "5F2D3A4E907757BC"
@@ -837,7 +847,7 @@
 			tasks: [{
 				id: "53B0061130E1FEEA"
 				type: "kill"
-				title: "Освещенный Дробитель Звезд"
+				title: "Крушитель Старлит"
 				icon: "blue_skies:starlit_leaves"
 				entity: "blue_skies:starlit_crusher"
 				value: 1L
@@ -926,6 +936,7 @@
 			x: -0.5d
 			y: -13.0d
 			shape: "square"
+			description: ["Может быть призван через 'Алтарь призыва'."]
 			id: "0919AFEDD3744060"
 			tasks: [{
 				id: "3B5D132011FD1BCA"
@@ -946,6 +957,7 @@
 			x: -4.5d
 			y: -10.0d
 			shape: "square"
+			description: ["Может быть призван через 'Алтарь призыва'."]
 			id: "1FA5378CB756CDEF"
 			tasks: [{
 				id: "456A4E1435763196"
@@ -966,6 +978,7 @@
 			x: -1.5d
 			y: -11.0d
 			shape: "square"
+			description: ["Может быть призван через 'Алтарь призыва'."]
 			id: "3D1EF85D04AABC1E"
 			tasks: [{
 				id: "762F9E96314FEA44"
@@ -1062,8 +1075,8 @@
 									id: 33
 								}
 							]
-							spellSlots: 5
 							activeSpellIndex: 0
+							spellSlots: 5
 						}
 					}
 				}
@@ -1080,6 +1093,7 @@
 			x: -11.5d
 			y: -13.0d
 			shape: "square"
+			description: ["Может быть призван при помощи предмета \"Цветущий глаз\"."]
 			id: "6A59230529DD338B"
 			tasks: [{
 				id: "20D3FCC31F49242B"
@@ -1131,7 +1145,13 @@
 					Count: 1b
 					tag: {
 						RepairCost: 1
-						Damage: 0
+						affix_data: {
+							name: "{\"color\":\"#808080\",\"translate\":\"%s %s\",\"with\":[{\"translate\":\"affix.apotheosis:ironforged\"},\"\",\"\"]}"
+							affixes: {
+								"apotheosis:ironforged": 0.058177173f
+							}
+							rarity: "common"
+						}
 						BlockEntityTag: {
 							Patterns: [
 								{
@@ -1160,27 +1180,9 @@
 								}
 							]
 						}
-						affix_data: {
-							name: "{\"color\":\"#808080\",\"translate\":\"%s %s\",\"with\":[{\"translate\":\"affix.apotheosis:ironforged\"},\"\",\"\"]}"
-							affixes: {
-								"apotheosis:ironforged": 0.058177173f
-							}
-							rarity: "common"
-						}
+						Damage: 0
 						HideFlags: 32
-						AttributeModifiers: [{
-							Amount: -0.029904954135417938d
-							Name: "weaken"
-							Operation: 1
-							UUID: [I;
-								112035901
-								1134379090
-								-1220404660
-								-221377395
-							]
-							AttributeName: "minecraft:generic.attack_damage"
-							Slot: "offhand"
-						}]
+						CustomModelData: 1450300
 						display: {
 							Name: "{\"italic\":false,\"color\":\"#993333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Necrotic Shield\",{\"translate\":\"incendium.item.necrotic_shield.name\"}]}"
 							Lore: [
@@ -1190,7 +1192,19 @@
 								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
 							]
 						}
-						CustomModelData: 1450300
+						AttributeModifiers: [{
+							Amount: -0.029904954135417938d
+							Slot: "offhand"
+							Operation: 1
+							UUID: [I;
+								112035901
+								1134379090
+								-1220404660
+								-221377395
+							]
+							AttributeName: "minecraft:generic.attack_damage"
+							Name: "weaken"
+						}]
 						incendium: {
 							item: "necrotic_shield"
 						}
@@ -1426,7 +1440,7 @@
 			x: -10.5d
 			y: -13.0d
 			shape: "square"
-			description: ["Может быть призван после победы над 'Освещенным Дробителем Звезд'."]
+			description: ["Может быть призван после победы над 'Крушителем Старлит'."]
 			id: "693D9DB70A0A9278"
 			tasks: [{
 				id: "7D223457BF094B88"
