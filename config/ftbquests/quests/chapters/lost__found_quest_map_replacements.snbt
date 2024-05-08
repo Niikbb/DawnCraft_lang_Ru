@@ -15,15 +15,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -43,7 +43,7 @@
 				{
 					id: "7C99E794683023D1"
 					type: "gamestage"
-					title: "Map Acquired!"
+					title: "Карта выдана!"
 					icon: "minecraft:filled_map"
 					stage: "guildmaster2"
 				}
@@ -64,22 +64,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: -4.0d
 			y: 1.5d
-			subtitle: "The whereabouts of the Corrupt Ogre - one of the Eye Holders."
+			subtitle: "Местонахождение Проклятого Огра - одного из Держателей Глаза."
 			dependencies: ["0ABA6BD0DB5C112A"]
 			can_repeat: true
 			id: "0D9BECCC3E3CD303"
@@ -113,22 +113,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: -4.0d
 			y: 3.0d
-			subtitle: "The whereabouts of Knight Rober - one of the Eye Holders."
+			subtitle: "Местонахождение Рыцаря Робера - одного из Держателей Глаза."
 			dependencies: ["0ABA6BD0DB5C112A"]
 			can_repeat: true
 			id: "0A4E769E4F7AB6FF"
@@ -162,22 +162,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: -4.0d
 			y: 4.5d
-			subtitle: "The whereabouts of the Nine Tails - one of the Eye Holders."
+			subtitle: "Местонахождение Девятихвостого - одного из Держателей Глаза."
 			dependencies: ["0ABA6BD0DB5C112A"]
 			can_repeat: true
 			id: "753BD084B4C21084"
@@ -211,22 +211,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: -4.0d
 			y: 6.0d
-			subtitle: "The whereabouts of the Skeleton Lord - one of the Eye Holders."
+			subtitle: "Местонахождение Повелителя Скелетов - одного из Держателей Глаза."
 			dependencies: ["0ABA6BD0DB5C112A"]
 			can_repeat: true
 			id: "508075C89E7B209C"
@@ -260,22 +260,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: -4.0d
 			y: 7.5d
-			subtitle: "The whereabouts of the Sentinel Knight - one of the Eye Holders."
+			subtitle: "Местонахождение Рыцаря-стража - одного из Держателей Глаза."
 			dependencies: ["0ABA6BD0DB5C112A"]
 			can_repeat: true
 			id: "3B8C06BBF091082F"
@@ -309,22 +309,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: -4.0d
 			y: 9.0d
-			subtitle: "The whereabouts of the Fire Giant - the last Eye Holder."
+			subtitle: "Местонахождение Огненного Гиганта - одного из Держателей Глаза.."
 			dependencies: ["0ABA6BD0DB5C112A"]
 			can_repeat: true
 			id: "49DAB9F443A7F3D5"
@@ -358,15 +358,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -398,15 +398,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -447,15 +447,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -496,15 +496,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -545,15 +545,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -594,13 +594,13 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
 						id: "+"
+						x: -496.0d
 						z: -192.0d
 						rot: 180.0d
 					}]
@@ -609,7 +609,7 @@
 			}
 			x: 2.0d
 			y: 0.0d
-			subtitle: "Местонахождение Эндера Гардиана."
+			subtitle: "Заменяет карту с местонахождением 'Хранителя Края'."
 			dependencies: ["481B801AE3C24573"]
 			can_repeat: true
 			id: "31D7059E6B9E36E2"
@@ -632,15 +632,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -681,15 +681,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -730,15 +730,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -779,15 +779,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -828,15 +828,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -868,15 +868,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -908,15 +908,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -957,15 +957,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -1006,15 +1006,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -1053,15 +1053,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -1100,15 +1100,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -1140,15 +1140,15 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
+						rot: 180.0d
 						id: "+"
 						z: -192.0d
-						rot: 180.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
@@ -1180,13 +1180,13 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
 						id: "+"
+						x: -496.0d
 						z: -192.0d
 						rot: 180.0d
 					}]
@@ -1195,8 +1195,8 @@
 			}
 			x: 12.5d
 			y: 0.0d
-			subtitle: "A map leading you to the most powerful being within the realm."
-			description: ["*cheats need to be turned on for this\\n                    to work*"]
+			subtitle: "Карта, ведущая к одному из могущественных существ измерения."
+			description: ["     *Должны быть включены читы\\n           чтобы сработало.*"]
 			dependencies: ["4A988B619723BE75"]
 			can_repeat: true
 			id: "55EF65B04567D5F9"
@@ -1231,22 +1231,22 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
 						id: "+"
-						z: -192.0d
 						rot: 180.0d
+						z: -192.0d
+						x: -496.0d
 					}]
 					map: 0
 				}
 			}
 			x: 14.0d
 			y: 0.0d
-			subtitle: "A map given by the toolsmith to retrieve his favorite axe."
+			subtitle: "Карта, выданная 'Инструментальщиком' для нахождения его любимого Топора."
 			dependencies: ["35129EA4C68F2F88"]
 			can_repeat: true
 			id: "48D40F977F0E8F22"
@@ -1271,13 +1271,13 @@
 				Count: 1b
 				tag: {
 					display: {
-						Name: "{\"text\":\"Village\"}"
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+						Name: "{\"text\":\"Деревня\"}"
+						Lore: ["{\"text\":\"Карта указывающая на ближайшую деревню около вас... Интересно, как она оказалась у меня у руках...\"}"]
 					}
 					Decorations: [{
 						type: 26b
-						x: -496.0d
 						id: "+"
+						x: -496.0d
 						z: -192.0d
 						rot: 180.0d
 					}]
@@ -1286,7 +1286,7 @@
 			}
 			x: 15.5d
 			y: 0.0d
-			subtitle: "The whereabouts of the Martian."
+			subtitle: "Заменяет карту местонахожения 'Марсианина'."
 			dependencies: ["7F1AE7C5CF2DB045"]
 			can_repeat: true
 			id: "525717BA9952D917"
@@ -1337,7 +1337,7 @@
 			}
 			x: -5.5d
 			y: -1.0d
-			subtitle: "Replacements for the beginner quest to hunt 10 pillagers"
+			subtitle: "Заменяет карту начального квеста на убийство 10 Разбойников."
 			dependencies: ["0DA136A1D5894848"]
 			id: "33F3C54925241380"
 			tasks: [{
@@ -1543,11 +1543,11 @@
 			}]
 		}
 		{
-			title: "Skull Island Map"
+			title: "Карта 'Острова Черепа'"
 			icon: "minecraft:skeleton_skull"
 			x: 12.5d
 			y: -1.0d
-			subtitle: "Replace lost Skull Island quest map"
+			subtitle: "Заменяет утерянную карту для задания 'Острова Черепа'."
 			dependencies: ["0DA136A1D5894848"]
 			id: "4A988B619723BE75"
 			tasks: [{
@@ -1567,7 +1567,7 @@
 			}
 			x: 14.0d
 			y: -1.0d
-			subtitle: "Replace maps for quests given by the Toolsmith Villager"
+			subtitle: "Заменяет карты для заданий, выданные жителем 'Инструментальщиком'."
 			dependencies: ["0DA136A1D5894848"]
 			id: "35129EA4C68F2F88"
 			tasks: [{
@@ -1589,13 +1589,13 @@
 			}
 			x: 15.5d
 			y: -1.0d
-			subtitle: "Replace maps for quests given by the Weaponsmith Villager"
+			subtitle: "Заменяет карты для заданий, выданные жителем 'Оружейником'."
 			dependencies: ["0DA136A1D5894848"]
 			id: "7F1AE7C5CF2DB045"
 			tasks: [{
 				id: "786B8B4FA2CACA49"
 				type: "gamestage"
-				title: "Map Acquired!"
+				title: "Карта Получена!"
 				icon: "minecraft:filled_map"
 				stage: "weaponsmith1"
 			}]

@@ -25,6 +25,7 @@
 				{
 					id: "42686E158808469B"
 					type: "dimension"
+					title: "Посетить измерение: &2Верхний Мир"
 					dimension: "minecraft:overworld"
 				}
 			]
@@ -45,6 +46,7 @@
 			tasks: [{
 				id: "5340D7096A937AFA"
 				type: "dimension"
+				title: "Посетить измерение: &4Ад"
 				dimension: "minecraft:the_nether"
 			}]
 			rewards: [{
@@ -59,12 +61,13 @@
 			icon: "blue_skies:turquoise_cobblestone"
 			x: 10.0d
 			y: -4.0d
-			description: ["В Эвербрайте вас ждет множество испытаний и ресурсов. Создавайте новое снаряжение, убивайте новых боссов и находите легендарные предметы."]
+			description: ["В &bЭвербрайте&f вас ждет множество испытаний и ресурсов. Создавайте новое снаряжение, убивайте новых боссов и находите легендарные предметы."]
 			size: 2.0d
 			id: "278CAD60E4CC5A79"
 			tasks: [{
 				id: "285AF5C3CCC25BD9"
 				type: "dimension"
+				title: "Посетить измерение: &bЭвербрайт"
 				dimension: "blue_skies:everbright"
 			}]
 			rewards: [{
@@ -78,12 +81,13 @@
 			icon: "blue_skies:lunar_cobblestone"
 			x: 13.0d
 			y: -4.0d
-			description: ["Измерение Everdawn наполнено новыми боссами и ресурсами. Исследуйте на свой страх и риск."]
+			description: ["Измерение &cЭвердоуна&f наполнено новыми боссами и ресурсами. Исследуйте на свой страх и риск."]
 			size: 2.0d
 			id: "1453090ED20C0271"
 			tasks: [{
 				id: "5C3D8762D1F80DC3"
 				type: "dimension"
+				title: "Посетить измерение: &cЭвердоун"
 				dimension: "blue_skies:everdawn"
 			}]
 			rewards: [{
@@ -131,54 +135,69 @@
 			}]
 		}
 		{
-			title: "&bПортал в Эвербрайт"
+			title: "Портал в &bЭвербрайт"
+			icon: "blue_skies:everbright_portal"
 			x: 10.4d
 			y: -1.9500000000000002d
+			description: ["Структура создаётся так же, как и портал в &4Ад&f."]
 			size: 1.3d
 			id: "757077E8AFBC40A2"
-			tasks: [{
-				id: "4AEDED909791CCF9"
-				type: "item"
-				item: {
-					id: "blue_skies:everbright_portal"
-					Count: 1b
-					tag: {
-						display: {
-							Name: "{\"text\":\"§bEverbright Portal\"}"
-							Lore: [
-								"{\"text\":\"Creates a lit Everbright portal.\"}"
-								"{\"text\":\"Requires the same space as a\"}"
-								"{\"text\":\"Nether Portal\"}"
-							]
+			tasks: [
+				{
+					id: "0BF5BC97735E193C"
+					type: "checkmark"
+					title: "Прочитал"
+				}
+				{
+					id: "6E024B39E1D436BF"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+				}
+				{
+					id: "024BA54F448DD14C"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "&cПортал в Эвердоун"
+			title: "Портал в &cЭвердоун"
+			icon: "blue_skies:everdawn_portal"
 			x: 12.350000000000001d
 			y: -1.9500000000000002d
+			description: ["Структура создаётся так же, как и портал в &4Ад&f."]
+			hide_dependency_lines: false
 			size: 1.3d
 			id: "23235D3C0E6F9435"
-			tasks: [{
-				id: "4B40BE7DAD113655"
-				type: "item"
-				item: {
-					id: "blue_skies:everdawn_portal"
-					Count: 1b
-					tag: {
-						display: {
-							Name: "{\"text\":\"§bEverdawn Portal\"}"
-							Lore: [
-								"{\"text\":\"Creates a lit EverDawn portal.\"}"
-								"{\"text\":\"Requires the same space as a\"}"
-								"{\"text\":\"Nether Portal\"}"
-							]
+			tasks: [
+				{
+					id: "5ECB7FA64B42310A"
+					type: "checkmark"
+					title: "Прочитал"
+				}
+				{
+					id: "5F5333449E2C32EF"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+				}
+				{
+					id: "4FC41282450F0F36"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 14.5d

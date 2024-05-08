@@ -20,6 +20,7 @@
 			tasks: [{
 				id: "445F7648DEA3E68E"
 				type: "kill"
+				title: "Огненный Гигант"
 				icon: "simple_mobs:giant_knot"
 				entity: "simple_mobs:fire_giant"
 				value: 1L
@@ -49,6 +50,7 @@
 			tasks: [{
 				id: "4C5EFE238F3FD770"
 				type: "kill"
+				title: "Рыцарь-страж"
 				icon: "simple_mobs:sentinelkey"
 				entity: "simple_mobs:sentinel_knight"
 				value: 1L
@@ -77,6 +79,7 @@
 			tasks: [{
 				id: "7BDEC0C40EDA1E6C"
 				type: "kill"
+				title: "Марсианин"
 				icon: "simple_mobs:gem_item"
 				entity: "simple_mobs:martian"
 				value: 1L
@@ -105,6 +108,7 @@
 			tasks: [{
 				id: "26621AD360C172EF"
 				type: "kill"
+				title: "Искажённый Огр"
 				icon: {
 					id: "endrem:lost_eye"
 					Count: 1b
@@ -139,7 +143,7 @@
 			tasks: [{
 				id: "7001FA74512AAD19"
 				type: "kill"
-				title: "Nine Tails"
+				title: "Девятихвостый"
 				icon: "alexsmobs:lobster_tail"
 				entity: "simple_mobs:nine_tails"
 				value: 1L
@@ -168,6 +172,7 @@
 			tasks: [{
 				id: "4D745F7EB67EBF7F"
 				type: "kill"
+				title: "Магистр Магии, Повелитель Скелетов"
 				icon: {
 					id: "irons_spellbooks:pumpkin_helmet"
 					Count: 1b
@@ -193,7 +198,7 @@
 			tasks: [{
 				id: "3FC7DF131BFEA5D1"
 				type: "kill"
-				title: "Fire Dragon"
+				title: "Огненный Дракон"
 				icon: "simple_mobs:fire_dragon_essence"
 				entity: "simple_mobs:fire_dragon"
 				value: 1L
@@ -213,7 +218,7 @@
 			tasks: [{
 				id: "7383CB2F9C46BDE2"
 				type: "kill"
-				title: "Ice Dragon"
+				title: "Ледяной Дракон"
 				icon: "simple_mobs:ice_dragon_essence"
 				entity: "simple_mobs:ice_dragon"
 				value: 1L
@@ -233,7 +238,7 @@
 			tasks: [{
 				id: "79AED0F6F54CE809"
 				type: "kill"
-				title: "Notch"
+				title: "Нотч"
 				icon: "apotheosis:mythic_material"
 				entity: "simple_mobs:elemental_deity"
 				value: 1L
@@ -263,7 +268,7 @@
 			tasks: [{
 				id: "4A44B3D3E93B316A"
 				type: "kill"
-				title: "Goblin King"
+				title: "Король Гоблинов"
 				icon: {
 					id: "goblinsanddungeons:goblin_crown"
 					Count: 1b
@@ -290,7 +295,7 @@
 			tasks: [{
 				id: "7656A203BA9099CF"
 				type: "kill"
-				title: "Nameless King"
+				title: "Безымянный Король"
 				icon: {
 					id: "darkersouls:crown_of_tempest"
 					Count: 1b
@@ -318,7 +323,7 @@
 			tasks: [{
 				id: "447DB75056CBD118"
 				type: "kill"
-				title: "Father Gascoigne"
+				title: "Отец Гаскойн"
 				icon: "bloodandmadness:eggs/father_gascoigne_spawn_egg"
 				entity: "bloodandmadness:gascoigne_beast"
 				value: 1L
@@ -410,7 +415,7 @@
 			tasks: [{
 				id: "5F2D3A4E907757BC"
 				type: "kill"
-				title: "Knight Rober, Primordial One"
+				title: "Рыцарь Роберт, Первородный"
 				icon: {
 					id: "magistuarmory:ceremonialarmet"
 					Count: 1b
@@ -468,7 +473,7 @@
 			tasks: [{
 				id: "7E7FA56730460C7A"
 				type: "kill"
-				title: "Naga"
+				title: "Нага"
 				icon: "mowziesmobs:naga_fang"
 				entity: "mowziesmobs:naga"
 				value: 1L
@@ -509,7 +514,7 @@
 			tasks: [{
 				id: "561CB5790BBC3C58"
 				type: "kill"
-				title: "Ignis"
+				title: "Игнис"
 				icon: {
 					id: "cataclysm:ignitium_helmet"
 					Count: 1b
@@ -528,7 +533,7 @@
 			}]
 		}
 		{
-			title: "Защитник Края"
+			title: "Хранитель Края"
 			x: -3.5d
 			y: -11.0d
 			shape: "square"
@@ -536,7 +541,7 @@
 			tasks: [{
 				id: "54D44DF2F5B4D01A"
 				type: "kill"
-				title: "Ender Guardian"
+				title: "Хранитель Края"
 				icon: "minecraft:shulker_box"
 				entity: "cataclysm:ender_guardian"
 				value: 1L
@@ -556,7 +561,7 @@
 			tasks: [{
 				id: "63CB7D304B4A5E62"
 				type: "kill"
-				title: "Ender Golem"
+				title: "Голем Края"
 				icon: "cataclysm:ender_guardian_spawner"
 				entity: "cataclysm:ender_golem"
 				value: 1L
@@ -577,7 +582,7 @@
 			tasks: [{
 				id: "1615F156D8868175"
 				type: "kill"
-				title: "Magispeller"
+				title: "Заклинатель"
 				icon: "illageandspillage:totem_of_banishment"
 				entity: "illageandspillage:magispeller"
 				value: 1L
@@ -623,7 +628,7 @@
 			tasks: [{
 				id: "5E3B11AE09EDA3EF"
 				type: "kill"
-				title: "Ender Dragon"
+				title: "Дракон Края"
 				icon: "minecraft:dragon_head"
 				entity: "minecraft:ender_dragon"
 				value: 1L
@@ -644,7 +649,7 @@
 			tasks: [{
 				id: "5DB69F4160B98336"
 				type: "kill"
-				title: "Wither"
+				title: "Иссушитель"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither"
 				value: 1L
@@ -664,7 +669,7 @@
 			tasks: [{
 				id: "1A57FD426D56A8AC"
 				type: "kill"
-				title: "Незеритовое чудовище"
+				title: "Незеритовое чудище"
 				icon: {
 					id: "cataclysm:infernal_forge"
 					Count: 1b
@@ -682,7 +687,7 @@
 			}]
 		}
 		{
-			title: "Призрак Капитана Корнелия"
+			title: "Призрак Капитана Корнелии"
 			x: -2.5d
 			y: -9.0d
 			shape: "square"
@@ -690,7 +695,7 @@
 			tasks: [{
 				id: "37132D5156C12E97"
 				type: "kill"
-				title: "Ghost of Captain Cornelia"
+				title: "Призрак Капитана Корнелии"
 				icon: {
 					id: "aquamirae:three_bolt_helmet"
 					Count: 1b
@@ -736,7 +741,7 @@
 			tasks: [{
 				id: "63C65D7821ADD9B5"
 				type: "kill"
-				title: "Искореженный Моско"
+				title: "Искажённый комар"
 				icon: "alexsmobs:warped_muscle"
 				entity: "alexsmobs:warped_mosco"
 				value: 1L
@@ -756,7 +761,7 @@
 			tasks: [{
 				id: "7A847CC5B58645A8"
 				type: "kill"
-				title: "Elder Guardian"
+				title: "Древний Страж"
 				icon: "minecraft:heart_of_the_sea"
 				entity: "minecraft:elder_guardian"
 				value: 1L
@@ -777,7 +782,7 @@
 			tasks: [{
 				id: "4BF011179CDF0597"
 				type: "kill"
-				title: "Cultist"
+				title: "Культист"
 				icon: {
 					id: "simple_mobs:plaguemask_helmet"
 					Count: 1b
@@ -804,7 +809,7 @@
 			tasks: [{
 				id: "0746611D8AB4D874"
 				type: "kill"
-				title: "Giant"
+				title: "Гигант"
 				icon: "simple_mobs:giant_eye_fragment"
 				entity: "simple_mobs:giant"
 				value: 1L
@@ -842,7 +847,7 @@
 			x: -8.5d
 			y: -13.0d
 			shape: "square"
-			description: ["Может быть найден в измерении ''Everbright'' внутри данжа."]
+			description: ["Может быть найден в измерении '&bЭвербрайт&f' внутри данжа."]
 			id: "7DE3F1C0DDCACC6D"
 			tasks: [{
 				id: "53B0061130E1FEEA"
@@ -868,6 +873,7 @@
 			tasks: [{
 				id: "3C5CFB7BFDCAAE24"
 				type: "kill"
+				title: "Призыватель"
 				icon: {
 					id: "irons_spellbooks:cultist_helmet"
 					Count: 1b
@@ -893,7 +899,7 @@
 			tasks: [{
 				id: "147168466A3409F7"
 				type: "kill"
-				title: "Alchemist"
+				title: "Алхимик"
 				icon: {
 					id: "blue_skies:alchemy_scroll"
 					Count: 1b
@@ -914,12 +920,12 @@
 			x: -7.5d
 			y: -13.0d
 			shape: "square"
-			description: ["Может быть найден в измерении ''Everdawn'' внутри 'Ядовитого' данжа."]
+			description: ["Может быть найден в измерении '&cЭвердоун&f' внутри 'Ядовитого' данжа."]
 			id: "01CF56DCE8E72465"
 			tasks: [{
 				id: "186BD8407FB7B253"
 				type: "kill"
-				title: "Арахнарх"
+				title: "Арахна"
 				icon: "blue_skies:spider_webbing"
 				entity: "blue_skies:arachnarch"
 				value: 1L
@@ -983,7 +989,7 @@
 			tasks: [{
 				id: "762F9E96314FEA44"
 				type: "kill"
-				title: "Bellringer"
+				title: "Звонарь"
 				icon: "meetyourfight:haunted_bell"
 				entity: "meetyourfight:bellringer"
 				value: 1L
@@ -995,7 +1001,7 @@
 			}]
 		}
 		{
-			title: "Бахрин'Муул, Погребенный"
+			title: "Байрин'муул, Погребённый"
 			x: -1.5d
 			y: -9.0d
 			shape: "square"
@@ -1003,7 +1009,7 @@
 			tasks: [{
 				id: "0977648E905A20ED"
 				type: "kill"
-				title: "Bahryn'muul, Entombed"
+				title: "Байрин'муул, Погребённый"
 				icon: "ba_bt:guardian_eye_land"
 				entity: "ba_bt:land_golem"
 				value: 1L
@@ -1022,7 +1028,7 @@
 			tasks: [{
 				id: "2540B51253A76D43"
 				type: "kill"
-				title: "Мораизу'ун, Идол Утопленников"
+				title: "Морайзу'ун, Идол Утопленников"
 				icon: "ba_bt:guardian_eye_ocean"
 				entity: "ba_bt:ocean_golem"
 				value: 1L
@@ -1042,7 +1048,7 @@
 			tasks: [{
 				id: "59B1CCF6F6547781"
 				type: "kill"
-				title: "Dead King"
+				title: "Король Мёртвых"
 				icon: {
 					id: "irons_spellbooks:blood_staff"
 					Count: 1b
@@ -1098,7 +1104,7 @@
 			tasks: [{
 				id: "20D3FCC31F49242B"
 				type: "kill"
-				title: "Миколаш, ведущий \"Кошмары\""
+				title: "Миколаш, Хозяин Кошмара"
 				icon: "bloodandmadness:eggs/micolash_spawn_egg"
 				entity: "bloodandmadness:micolash"
 				value: 1L
@@ -1194,8 +1200,8 @@
 						}
 						AttributeModifiers: [{
 							Amount: -0.029904954135417938d
-							Slot: "offhand"
 							Operation: 1
+							Slot: "offhand"
 							UUID: [I;
 								112035901
 								1134379090
@@ -1251,7 +1257,7 @@
 			tasks: [{
 				id: "1FF2F806CA3035F8"
 				type: "kill"
-				title: "Void Blossom"
+				title: "Цветок Пустоты"
 				icon: "bosses_of_mass_destruction:void_blossom"
 				entity: "bosses_of_mass_destruction:void_blossom"
 				value: 1L
@@ -1271,7 +1277,7 @@
 			tasks: [{
 				id: "53F3F81A1098862B"
 				type: "kill"
-				title: "Night Lich"
+				title: "Ночной Лич"
 				icon: "minecraft:skeleton_skull"
 				entity: "bosses_of_mass_destruction:lich"
 				value: 1L
@@ -1291,7 +1297,7 @@
 			tasks: [{
 				id: "05AF3069BEF01512"
 				type: "kill"
-				title: "Nether Gauntlet"
+				title: "Адская Рукавица"
 				icon: "bosses_of_mass_destruction:blazing_eye"
 				entity: "bosses_of_mass_destruction:gauntlet"
 				value: 1L
@@ -1312,7 +1318,7 @@
 			tasks: [{
 				id: "1F4A7D724ADF51DE"
 				type: "kill"
-				title: "Dragon Lord"
+				title: "Драконий Лорд"
 				icon: "simple_mobs:dragon_lord_essence"
 				entity: "simple_mobs:dragon_lord"
 				value: 1L
@@ -1333,7 +1339,7 @@
 			tasks: [{
 				id: "6E63C3DC7DB1EECE"
 				type: "kill"
-				title: "Ent"
+				title: "Энт"
 				icon: {
 					id: "simple_mobs:ent_staff"
 					Count: 1b
@@ -1360,7 +1366,7 @@
 			tasks: [{
 				id: "231C7B5517480420"
 				type: "kill"
-				title: "Herobrine"
+				title: "Херобрин"
 				icon: "minecraft:player_head"
 				entity: "simple_mobs:herobrine_flash"
 				value: 1L
@@ -1382,7 +1388,7 @@
 			tasks: [{
 				id: "73B0474F6E84F861"
 				type: "kill"
-				title: "Shogunate (Prime)"
+				title: "Сёгунат (Прайм)"
 				icon: {
 					id: "wom:satsujin"
 					Count: 1b
