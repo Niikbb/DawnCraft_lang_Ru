@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 5,
+	"icon": "minecraft:crossbow",
+	"start": {
+		"title": {
+			"text": "Voluntary Exile"
+		},
+		"description": {
+			"text": "Got a side challenge for you: Defeat a Pillager Captain! Remember to drink milk before coming back... I'll kill you if you bring those pesky pillagers back to us!"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Voluntary Exile: Complete"
+		},
+		"description": {
+			"text": "Good job. Wait... You drank the milk right?"
+		}
+	},
+	"tasks": [{
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:adventure/voluntary_exile"
+	}],
+	"rewards": [{
+		"id": "quest_giver:item",
+		"item": {
+			"item": "minecraft:emerald",
+			"count": 2
+		}
+	}]
+}
