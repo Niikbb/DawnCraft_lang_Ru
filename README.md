@@ -1,7 +1,7 @@
 ### (🇬🇧) DawnCraft ModPack for Russian players Localization.
 Version by ItDanieru was used as a base for translation.
 Current version has more correct translation, because previous one was using 'Machine Translation'.
-Does support DawnCraft 2.0.5 and higher.
+Does support DawnCraft 2.0.5 up to 2.0.9_f.
 
 Ready to use:
 - FTB Quests: 12/13
@@ -12,7 +12,7 @@ Ready to use:
 ### (🇷🇺) DawnCraft ModPack для Русскоговорящих людей.
 Версия от ItDanieru была взята как основа для перевода.
 Текущая версия имеет более корректный перевод, т.к. предыдущая имела 'Машинный Перевод'.
-Поддерживает версии DawnCraft от 2.0.5 и выше.
+Поддерживает версии DawnCraft от 2.0.5 до 2.0.9_f.
 
 Готовое к использованию:
 - FTB Quests: 12/13.
